@@ -3,7 +3,11 @@
   justify-content: end;
   gap: 2rem;
 }
-
+.profile-photo i {
+  font-size: 10px;
+  display: inline-block;
+  width: 50px;
+}
 .left .top button {
   display: none;
 }

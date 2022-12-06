@@ -4,52 +4,70 @@ const RecentOrderItems = () => {
   return (
     <>
       <div className="recent-orders">
-        <h2>Recent Orders</h2>
+        <h2>لیست معلمین</h2>
         <table>
           <thead>
             <tr>
-              <th>Product Name</th>
-              <th>Product Number</th>
-              <th>Payment</th>
-              <th>Status</th>
+              <th>نام و نام خانوادگی</th>
+              <th>شماره ی ملی</th>
+              <th>شماره ی کلاس</th>
+              <th>شماره ی ترم</th>
               <th></th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Flodable Mini Dore</td>
-              <td>85631</td>
-              <td>Due</td>
-              <td className="warning">Pending</td>
-              <td className="primary">Details</td>
+              <td>اکرم یوسفی</td>
+              <td>3267902601</td>
+              <td>A1</td>
+              <td className="warning">14011</td>
+              <td className="primary">
+                {" "}
+                <i class="bx bxs-edit edit"></i>
+                <i class="bx bxs-message-square-x delete"></i>
+              </td>
             </tr>
             <tr>
-              <td>Flodable Mini Dore</td>
-              <td>85631</td>
-              <td>Due</td>
-              <td className="warning">Pending</td>
-              <td className="primary">Details</td>
+              <td>سعید اکبرنژاد</td>
+              <td>0075236230</td>
+              <td>A2</td>
+              <td className="warning">14011</td>
+              <td className="primary">
+                <i class="bx bxs-edit edit"></i>
+                <i class="bx bxs-message-square-x delete"></i>
+              </td>
             </tr>
             <tr>
-              <td>Flodable Mini Dore</td>
-              <td>85631</td>
-              <td>Due</td>
-              <td className="warning">Pending</td>
-              <td className="primary">Details</td>
+              <td>رضا داوودی مقدم</td>
+              <td>0012569875</td>
+              <td>B1</td>
+              <td className="warning">14011</td>
+              <td className="primary">
+                {" "}
+                <i class="bx bxs-edit edit"></i>
+                <i class="bx bxs-message-square-x delete"></i>
+              </td>
             </tr>
             <tr>
-              <td>Flodable Mini Dore</td>
-              <td>85631</td>
-              <td>Due</td>
-              <td className="warning">Pending</td>
-              <td className="primary">Details</td>
+              <td>سارا عسگری</td>
+              <td>3258345060</td>
+              <td>B2</td>
+              <td className="warning">14011</td>
+              <td className="primary">
+                <i class="bx bxs-edit edit"></i>
+                <i class="bx bxs-message-square-x delete"></i>
+              </td>
             </tr>
             <tr>
-              <td>Flodable Mini Dore</td>
-              <td>85631</td>
-              <td>Due</td>
-              <td className="warning">Pending</td>
-              <td className="primary">Details</td>
+              <td>محسن نعیمی</td>
+              <td>3201562530</td>
+              <td>B3</td>
+              <td className="warning">14011</td>
+              <td className="primary">
+                {" "}
+                <i class="bx bxs-edit edit"></i>
+                <i class="bx bxs-message-square-x delete"></i>
+              </td>
             </tr>
           </tbody>
         </table>

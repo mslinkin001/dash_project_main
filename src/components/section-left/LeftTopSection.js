@@ -1,6 +1,6 @@
 import React from "react";
 import "./LeftTopSection.css";
-import profilePic from "../../assets/img/profile-1.jpg";
+import profilePic from "../../assets/img/defaultuser.png";
 
 const LeftTopSection = (props) => {
   return (
@@ -10,8 +10,8 @@ const LeftTopSection = (props) => {
           <i className="fa-solid fa-bars"></i>
         </button>
         <div className="theme-toggler">
-          <i className="fa-solid fa-sun active"></i>
-          <i className="fa-solid fa-moon"></i>
+          <i className="bx bx-sun active"></i>
+          <i className="bx bx-moon"></i>
         </div>
         <div className="profile">
           <div className="info">

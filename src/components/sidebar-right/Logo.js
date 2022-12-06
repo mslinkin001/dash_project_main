@@ -1,7 +1,7 @@
 import React from "react";
 import CloseBtn from "./CloseBtn";
 import "./Logo.css";
-import LogoPic from "../../assets/img/logo.png";
+import LogoPic from "../../assets/img/saeilogo.png";
 const Logo = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Logo = () => {
         <div className="logo">
           <img src={LogoPic} alt="logo" />
           <h2>
-            SA<span className="danger">EI</span>
+            دبیرستان<span className="danger"> ساعی </span>
           </h2>
         </div>
         <CloseBtn />

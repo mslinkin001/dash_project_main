@@ -34,7 +34,15 @@ main .recent-orders a {
   margin: 1rem auto;
   color: var(--color-primary);
 }
-
+.primary i {
+  font-size: 20px;
+}
+.primary i.edit {
+  color: #2fd42f;
+}
+.primary i.delete {
+  color: #cb1c1c;
+}
 @media screen and (max-width: 1200px) {
   main .recent-orders {
     width: 94%;
@@ -47,12 +55,12 @@ main .recent-orders a {
     width: 83vw;
   }
 
-  main table thead tr th:last-child,
-  main table thead tr th:first-child {
+  main table thead tr th:nth-child(4),
+  main table thead tr th:nth-child(2) {
     display: none;
   }
-  main table tbody tr td:last-child,
-  main table tbody tr td:first-child {
+  main table tbody tr td:nth-child(4),
+  main table tbody tr td:nth-child(2) {
     display: none;
   }
 }

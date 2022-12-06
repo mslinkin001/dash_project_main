@@ -1,8 +1,8 @@
 import React from "react";
 import "./RecentSection.css";
-import profilePic2 from "../../assets/img/profile-2.jpg";
-import profilePic3 from "../../assets/img/profile-3.jpg";
-import profilePic4 from "../../assets/img/profile-4.jpg";
+import profilePic2 from "../../assets/img/miladd.png";
+import profilePic3 from "../../assets/img/erfan.png";
+import profilePic4 from "../../assets/img/amin.png";
 
 const RecentSection = (props) => {
   return (
@@ -16,8 +16,7 @@ const RecentSection = (props) => {
             </div>
             <div className="message">
               <p>
-                <b>Mike Tyson</b> recieved his order of Night lion tech GPS
-                drone.
+                <b>میلاد دستان زند</b> فایل ها رو فرستادم یه نگاه بنداز.
               </p>
               <small className="text-muted">2 Minutes Ago</small>
             </div>
@@ -28,8 +27,7 @@ const RecentSection = (props) => {
             </div>
             <div className="message">
               <p>
-                <b>Mike Tyson</b> recieved his order of Night lion tech GPS
-                drone.
+                <b>عرفان رستمی</b> سه کارنامه مشکل داشت برات فرستادم
               </p>
               <small className="text-muted">2 Minutes Ago</small>
             </div>
@@ -40,8 +38,7 @@ const RecentSection = (props) => {
             </div>
             <div className="message">
               <p>
-                <b>Mike Tyson</b> recieved his order of Night lion tech GPS
-                drone.
+                <b>امین بنی عامریان</b> سه شنبه خوبه ولی هفته ی بعدی
               </p>
               <small className="text-muted">2 Minutes Ago</small>
             </div>

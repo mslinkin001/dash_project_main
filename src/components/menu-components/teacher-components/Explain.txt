@@ -1,0 +1,2 @@
+All teacher's menu items are in common-components section which means 
+that the menu items for teacher can be found both in headmaster and student section

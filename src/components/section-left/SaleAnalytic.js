@@ -4,18 +4,17 @@ const SaleAnalytic = (props) => {
   return (
     <>
       <div className="sales-analytics">
-        <h2>آنالیز فروش</h2>
+        <h2>لیست کارهای آینده</h2>
         <div className="item online">
           <div className="icon">
             <i className="fa-solid fa-cart-shopping"></i>
           </div>
           <div className="left">
             <div className="info">
-              <h3>Online Orders</h3>
-              <small className="text-muted">Last 24 Hours</small>
+              <h3>اردوی تفریحی</h3>
             </div>
-            <h5 className="success">+39%</h5>
-            <h3>3849</h3>
+            <h5 className="success">انجام شده</h5>
+            <h3>12/03/1401</h3>
           </div>
         </div>
         <div className="item offline">
@@ -24,11 +23,10 @@ const SaleAnalytic = (props) => {
           </div>
           <div className="left">
             <div className="info">
-              <h3>Offline Orders</h3>
-              <small className="text-muted">Last 24 Hours</small>
+              <h3>فرستادن نامه های اداره کل</h3>
             </div>
-            <h5 className="danger">-17%</h5>
-            <h3>1100</h3>
+            <h5 className="danger">انجام نشده</h5>
+            <h3>15/04/1401</h3>
           </div>
         </div>
         <div className="item customers">
@@ -37,17 +35,10 @@ const SaleAnalytic = (props) => {
           </div>
           <div className="left">
             <div className="info">
-              <h3>New Customers</h3>
-              <small className="text-muted">Last 24 Hours</small>
+              <h3>اطلاعیه ی ثبت نام جدید</h3>
             </div>
-            <h5 className="success">+25%</h5>
-            <h3>849</h3>
-          </div>
-        </div>
-        <div className="item add-product">
-          <div>
-            <i className="fa-solid fa-plus"></i>
-            <h3>Add Product</h3>
+            <h5 className="success">انجام شده</h5>
+            <h3>10/03/1401</h3>
           </div>
         </div>
       </div>

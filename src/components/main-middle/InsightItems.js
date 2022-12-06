@@ -5,60 +5,42 @@ const InsightItems = () => {
     <>
       <div className="insights">
         <div className="sales">
-          <i className="fa-solid fa-chart-simple"></i>
           <div className="middle">
             <div className="left">
-              <h3>Total Sales</h3>
-              <h1>25.88$</h1>
+              <h3>تعداد کل معمان</h3>
+              <h1>12 نفر</h1>
             </div>
             <div className="progress">
-              <svg>
-                <circle cx="38" cy="38" r="36"></circle>
-              </svg>
-              <div className="number">
-                <p>81%</p>
-              </div>
+              <i className="bx bx-chalkboard"></i>
             </div>
           </div>
-          <small className="text-muted">Last 24 Hours</small>
+          <small className="text-muted">در ترم جاری</small>
         </div>
         {/* <!--End of Sales--> */}
-        <div className="expenses">
-          <i className="fa-solid fa-chart-pie"></i>
+        <div className="sales">
           <div className="middle">
             <div className="left">
-              <h3>Total Expenses</h3>
-              <h1>14.16$</h1>
+              <h3>تعداد کل دانش آموزان</h3>
+              <h1>325 نفر</h1>
             </div>
             <div className="progress">
-              <svg>
-                <circle cx="38" cy="38" r="36"></circle>
-              </svg>
-              <div className="number">
-                <p>62%</p>
-              </div>
+              <i className="bx bx-book-reader"></i>
             </div>
           </div>
-          <small className="text-muted">Last 24 Hours</small>
+          <small className="text-muted">در ترم جاری</small>
         </div>
         {/* <!--End of Expenses--> */}
-        <div className="income">
-          <i className="fa-solid fa-chart-area"></i>
+        <div className="sales">
           <div className="middle">
             <div className="left">
-              <h3>Total Income</h3>
-              <h1>10.864$</h1>
+              <h3> میانگین قبولی در ترم گذشته </h3>
+              <h1>87 درصد</h1>
             </div>
             <div className="progress">
-              <svg>
-                <circle cx="38" cy="38" r="36"></circle>
-              </svg>
-              <div className="number">
-                <p>44%</p>
-              </div>
+              <i className="bx bxs-report"></i>
             </div>
           </div>
-          <small className="text-muted">Last 24 Hours</small>
+          <small className="text-muted">در ترم 14002</small>
         </div>
         {/* //End of Income */}
       </div>
