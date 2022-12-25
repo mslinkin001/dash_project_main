@@ -29,4 +29,5 @@ export const useAxios = (axiosParams) => {
   }, [axiosParams.url]);
 
   return { response, error, loading };
+  console.log(response);
 };
