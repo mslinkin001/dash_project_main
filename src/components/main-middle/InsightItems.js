@@ -8,7 +8,7 @@ const InsightItems = () => {
           <div className="middle">
             <div className="left">
               <h3>تعداد کل معمان</h3>
-              <h1>12 نفر</h1>
+              <h1>13 نفر</h1>
             </div>
             <div className="progress">
               <i className="bx bx-chalkboard"></i>
@@ -21,7 +21,7 @@ const InsightItems = () => {
           <div className="middle">
             <div className="left">
               <h3>تعداد کل دانش آموزان</h3>
-              <h1>325 نفر</h1>
+              <h1>323 نفر</h1>
             </div>
             <div className="progress">
               <i className="bx bx-book-reader"></i>
