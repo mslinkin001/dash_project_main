@@ -56,7 +56,7 @@ function App() {
   if (response) {
     console.log(response.results);
 
-    console.log(loginposition);
+    // console.log(loginposition);
   }
   if (isLoggedin) {
     return (
