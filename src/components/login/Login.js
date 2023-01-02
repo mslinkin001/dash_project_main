@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import classes from "./Login.module.css";
 import logoPic from "../../assets/img/logo.png";
 import { useSelector, useDispatch } from "react-redux";
+import LoadingSpin from "react-loading-spin";
 let fetchUrl = "";
 
 const usernameChecker = ["student", "teacher", "headmaster"];

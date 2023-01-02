@@ -16,6 +16,7 @@ import Login from "./components/login/Login";
 import { useAxios } from "./components/custom-hook/useAxios";
 import { useDispatch, useSelector } from "react-redux";
 import { loginActions } from "./store/index";
+import LoadingSpin from "react-loading-spin";
 
 function App() {
   const dispatch = useDispatch(loginActions);
@@ -73,16 +74,21 @@ function App() {
             <RecentOrders />
           </MiddleWrapper>
           <LeftWrapper>
-            <LeftTopSection
-              userTitle={
-                response
-                  ? response.results[0].firstName +
-                    " " +
-                    response.results[0].lastName
-                  : ""
-              }
-              userPosition={response ? response.results[0].position : ""}
-            />
+            {response ? (
+              <LeftTopSection
+                userTitle={
+                  response
+                    ? response.results[0].firstName +
+                      " " +
+                      response.results[0].lastName
+                    : ""
+                }
+                userPosition={response ? response.results[0].position : ""}
+              />
+            ) : (
+              <LoadingSpin />
+            )}
+
             <RecentSection />
             <SaleAnalytic />
           </LeftWrapper>
