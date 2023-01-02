@@ -23,8 +23,8 @@ const RecentOrderItems = () => {
               <td className="warning">14011</td>
               <td className="primary">
                 {" "}
-                <i class="bx bxs-edit edit"></i>
-                <i class="bx bxs-message-square-x delete"></i>
+                <i className="bx bxs-edit edit"></i>
+                <i className="bx bxs-message-square-x delete"></i>
               </td>
             </tr>
             <tr>
@@ -33,8 +33,8 @@ const RecentOrderItems = () => {
               <td>A2</td>
               <td className="warning">14011</td>
               <td className="primary">
-                <i class="bx bxs-edit edit"></i>
-                <i class="bx bxs-message-square-x delete"></i>
+                <i className="bx bxs-edit edit"></i>
+                <i className="bx bxs-message-square-x delete"></i>
               </td>
             </tr>
             <tr>
@@ -44,8 +44,8 @@ const RecentOrderItems = () => {
               <td className="warning">14011</td>
               <td className="primary">
                 {" "}
-                <i class="bx bxs-edit edit"></i>
-                <i class="bx bxs-message-square-x delete"></i>
+                <i className="bx bxs-edit edit"></i>
+                <i className="bx bxs-message-square-x delete"></i>
               </td>
             </tr>
             <tr>
@@ -54,8 +54,8 @@ const RecentOrderItems = () => {
               <td>B2</td>
               <td className="warning">14011</td>
               <td className="primary">
-                <i class="bx bxs-edit edit"></i>
-                <i class="bx bxs-message-square-x delete"></i>
+                <i className="bx bxs-edit edit"></i>
+                <i className="bx bxs-message-square-x delete"></i>
               </td>
             </tr>
             <tr>
@@ -65,8 +65,8 @@ const RecentOrderItems = () => {
               <td className="warning">14011</td>
               <td className="primary">
                 {" "}
-                <i class="bx bxs-edit edit"></i>
-                <i class="bx bxs-message-square-x delete"></i>
+                <i className="bx bxs-edit edit"></i>
+                <i className="bx bxs-message-square-x delete"></i>
               </td>
             </tr>
           </tbody>

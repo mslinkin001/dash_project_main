@@ -18,7 +18,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { loginActions } from "./store/index";
 import LoadingSpin from "react-loading-spin";
 
-console.log(process.env.REACT_APP_X_Parse_Application_Id);
+const API_ID = process.env.REACT_APP_X_Parse_Application_Id;
+const API_KEY = process.env.REACT_APP_X_Parse_REST_API_Key;
 
 function App() {
   const dispatch = useDispatch(loginActions);
@@ -39,8 +40,8 @@ function App() {
     method: fetchMethod,
     url: fetchUrl,
     headers: {
-      "X-Parse-Application-Id": "aKMa1c8X90GamXful5ecFAl1qbyM2gjXLLamVEr5",
-      "X-Parse-REST-API-Key": "Vpu1GAUIZomXVeMKBm9sLZn6PlG4i5lSyFVqeBMF",
+      "X-Parse-Application-Id": API_ID,
+      "X-Parse-REST-API-Key": API_KEY,
     },
   });
   const loginHandler = (
