@@ -18,6 +18,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { loginActions } from "./store/index";
 import LoadingSpin from "react-loading-spin";
 
+console.log(process.env.REACT_APP_X_Parse_Application_Id);
+
 function App() {
   const dispatch = useDispatch(loginActions);
   const isLoggedin = useSelector((state) => state.loginReducer.isLoggedin);

@@ -55,7 +55,6 @@ const Menu = (props) => {
   return (
     <>
       <MenuItems menuTexts={loggedinMenuItems[0]} />;
-      {/* menuItems[0] shows the headmaster's menu and menuItems[1] shows the teacher's menu*/}
     </>
   );
 };
