@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./RecentOrderItems.css";
+import Rodal from "rodal";
+import "rodal/lib/rodal.css";
 const RecentOrderItems = () => {
+  const [modalShow, setModalShow] = useState(false);
+  const editModalHandler = () => {
+    setModalShow(true);
+  };
+  const closeModalHandler = () => {
+    setModalShow(false);
+  };
   return (
     <>
+      <Rodal visible={modalShow} onClose={closeModalHandler}>
+        <div>Edit Modal</div>
+      </Rodal>
       <div className="recent-orders">
         <h2>لیست معلمین</h2>
         <table>
@@ -23,7 +35,7 @@ const RecentOrderItems = () => {
               <td className="warning">14011</td>
               <td className="primary">
                 {" "}
-                <i className="bx bxs-edit edit"></i>
+                <i className="bx bxs-edit edit" onClick={editModalHandler}></i>
                 <i className="bx bxs-message-square-x delete"></i>
               </td>
             </tr>
